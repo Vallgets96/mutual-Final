@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
 import Whyus from "./Components/Whychooseus/Whyus";
-import Aboutus from "./Components/Aboutus/Aboutus";
+// import Aboutus from "./Components/Aboutus/Aboutus";
 import Happyclients from "./Components/Happyclients/Happyclients";
 import Service from "./Components/Service/Service";
 
@@ -19,6 +19,10 @@ import Newpartner from "./Components/Partner/NewPartner";
 import MV from "./Components/Mission/Mission";
 import { useState,useEffect } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
+import MutualFundGallery from "./Components/Gallery/Gallery";
+import Mfpartners from "./Components/Mfpartners/Mfpartners";
+import Partner from "./Components/Partner/Partner";
+import Gallery from "./Components/Gallery/Gallery";
 
 function App() {
 const [loading,setLoading] = useState(false)
@@ -43,8 +47,10 @@ useEffect(()=>{
       <Whyus />
       <MV />
       <Owner />
+      <Mfpartners/>
       <Happyclients />
       <Service />
+      <Gallery/>
       <Newpartner />
       <Faq />
       <Clients />

@@ -241,7 +241,7 @@ import owner1 from "../img/found1.jpeg";
 
 const Owner = () => {
   return (
-    <div id="owner" data-aos="fade-in" className="mb-5 mt-5">
+    <div id="aboutus" data-aos="fade-in" className="mb-5 mt-5">
       <div className="Container-fluid " data-aos="fade-in">
         <div className="section-title new" data-aos="fade-in">
           <h2 data-aos="fade-in">ABOUT US</h2>
@@ -262,18 +262,15 @@ const Owner = () => {
             </div>
             <div className="col-12 col-xl-5 left-cont-two" data-aos="fade-in">
               <h4 className="owner-head" data-aos="fade-in">
-                Our Beloved Founder - R.Mohanraj, B.Com
+                Our Beloved Founder - R.Mohanraj
               </h4>
               <p className="owner-para" data-aos="fade-in">
-                Hello, I'm Mr. Mohanraj, the founder of MR Mutual Funds. With
-                over two decades of dedicated expertise in the dynamic realms of
-                mutual funds and investments, I've had the privilege of
-                transforming the financial lifestyles of numerous clients on
-                this incredible journey. Having spent more than 20 years in the
-                mutual funds and investment fields, I've witnessed the
-                transformative power of strategic financial planning. Join the
-                MR Mutual Funds family, where your financial aspirations are not
-                just goals; they are our shared commitment.
+                I am Mr. Mohanraj, the Founder of M R Distribution Services. 
+                With a wealth of experience spanning over twenty years in the ever-changing domains of mutual funds and investments, 
+                I have had the honor of revolutionizing the financial well-being of countless clients throughout this remarkable voyage.
+                 Throughout my extensive tenure in the mutual funds and investment sectors, I have observed the profound impact of 
+                 strategic financial planning. Come and be a part of the M R Distribution Services community, where your financial
+                  dreams are not merely objectives; they are our collective dedication.
               </p>
             </div>
           </div>
@@ -285,18 +282,17 @@ const Owner = () => {
               data-aos="fade-in"
             >
               <h4 className="owner-head" data-aos="fade-in">
-                Our Beloved Director - Shrinidhi M R, BBA
+                Our Beloved Director - Shrinidhi M R
               </h4>
               <p className="owner-para" data-aos="fade-in">
-                {" "}
-                Hello, I'm Shrinidhi M R, the Next-gen Director at MR Mutual
-                Funds. With over 2 years of hands-on experience in the financial
-                sector, I am dedicated to carrying forward the legacy of
-                excellence established by Mr. Mohanraj. As an AMFI-registered
-                Mutual Fund distributor, I bring a fresh perspective to our
-                client-centric approach. Beyond this, I have completed a
-                Certified Retirement Goal Planner certification and I am actively
-                pursuing my CFP (Certified Financial Planner) designation.{" "}
+              
+                Hi I am Shrinidhi M R, Director, M R Distribution services.
+                 Having accumulated more than 2 years of practical experience in the financial industry,
+                  my commitment lies in upholding the distinguished legacy of excellence set by my father, 
+                  Mr. Mohanraj. As a Financial Advisor, I introduce a novel viewpoint to our customer-focused methodology.
+                   Furthermore, I have successfully obtained a certification as a Retirement Goal Planner from
+                    American Academy of Financial Management and I am currently dedicated to achieving my 
+                    designation as a Certified Financial Planner(CFP).
               </p>
             </div>
             <div className="col-12 col-xl-5 right-cont-two "

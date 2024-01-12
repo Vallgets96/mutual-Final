@@ -4,13 +4,13 @@ import Container from "react-bootstrap/Container";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import hdfc from "../img/HDFC-Bank-logo.png";
-import Pnb from "../img/pnb.webp";
-import star from "../img/star.jpg";
-import bajaj from "../img/images.png";
-import icici from "../img/icici-bank-vector-logo.png";
-import sbi from "../img/SBI-Logo.png";
-import sriram from "../img/sundaramhome.png";
+import hdfc from "./logos/bajaj.png";
+import Pnb from "./logos/canfin.jpg";
+import star from "./logos/hdfc.svg";
+import bajaj from "./logos/icic.png";
+import icici from "./logos/sriram.png";
+import sbi from "./logos/sundaramhome.png";
+// import sriram from "./logos/sundaramhome.png";
 
 const Partner = () => {
   var settings = {
@@ -93,9 +93,9 @@ const Partner = () => {
               <div className="partner-box">
                 <img className="partner-logo" src={icici} alt="" srcset="" />
               </div>
-              <div className="partner-box">
+              {/* <div className="partner-box">
                 <img className="partner-logo" src={sriram} alt="" srcset="" />
-              </div>
+              </div> */}
             </Slider>
           </div>
         </Container>

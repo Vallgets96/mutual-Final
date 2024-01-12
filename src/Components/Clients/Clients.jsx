@@ -13,27 +13,28 @@ let clients = [
     name: "Guna",
     img_url: Guna,
     stars: 3,
-    disc: `Mutual funds have truly democratized wealth creation. With minimal effort, I have witnessed my money grow steadily, thanks to the smart and strategic approach of professional fund managers.`,
+    disc:`Excellent guidance for Mutual fund and other investments.
+    Helps to find the suitable investment avenue.`
   },
   {
     name: "Mothee",
 
     img_url: Mothee,
     stars: 4,
-    disc: `Choosing mutual funds was the best decision for my financial goals. The transparency, flexibility, and impressive returns have made it a reliable avenue, aligning perfectly with my long-term investment strategy.`,
+    disc:`Trusted and good financial Advisor. Especially for those who are new to financial planning.`
   },
   {
     name: "Naveen Raj",
 
     img_url: Naveen,
     stars: 5,
-    disc: `Ive found my financial partner in mutual funds. The diverse portfolio options and expert guidance have not only grown my wealth but also provided peace of mind in the ever-changing market`,
+    disc:`Was good and had a clear vision in savings plan`
   },
   {
     name: "Rahul",
     img_url: Rahul,
     stars: 5,
-    disc: `Investing in mutual funds has been a game-changer for me. The consistent returns and professional management have not only secured my financial future but also made the investment journey stress-free.`,
+    disc: `Investing in mutual funds has been a game-changer for me.`,
   },
 ];
 var settings = {
@@ -81,19 +82,19 @@ const Clients = () => {
       <div className="section-title new" data-aos="fade-in">
         <h2>Feedback</h2>
         <h3>
-          Testimonial <span>Tales</span>
+          Testimonial <span>Tale</span>
         </h3>
       </div>
 
-      <Testimonials>
+      <Testimonials data-aos="fade-up"> 
         <Slider style={{ color: "#111e6c" }} ref={arrowRef} {...settings}>
           {clientDisc}
         </Slider>
-        <Buttons style={{display:"flex", gap:"10px"}}>
+        <Buttons style={{display:"flex", gap:"10px"}} data-aos="fade-up">
           <button onClick={() => arrowRef.current.slickPrev()}>
             <IoIosArrowBack style={{ color: "#111e6c", fontSize:"30px" }} />
           </button>
-          <button onClick={() => arrowRef.current.slickNext()}>
+          <button onClick={() => arrowRef.current.slickNext()} data-aos="fade-up">
             <IoIosArrowForward style={{ color: "#111e6c" ,fontSize:"30px"}} />
           </button>
         </Buttons>

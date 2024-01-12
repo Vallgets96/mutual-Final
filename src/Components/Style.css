@@ -10,13 +10,14 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --default-font: "Montserrat", sans-serif;
-  --heading-font: "Montserrat", sans-serif;
-  --nav-font: "Lato", sans-serif;
+  /* --default-font: "Montserrat", sans-serif;
+  --heading-font: "Montserrat", sans-serif; */
+  /* --nav-font: "Lato", sans-serifF; */
 }
 * {
   padding: 0;
   margin: 0;
+  /* overflow-x: hidden; */
 }
 /*@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"); */
 /* body {
@@ -69,6 +70,7 @@ body {
   color: #444444;
 }
 
+
 .logo {
   width: 1;
 }
@@ -88,8 +90,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
 }
 
 /*--------------------------------------------------------------
@@ -663,133 +665,6 @@ h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
-/*--------------------------------------------------------------
-  # Hero Section
-  /* --------------------------------------------------------------*/
-/* #hero {
-  width: 100%;
-  height: 75vh;
-  background: url("./img/paper.jpg.crdownload") top left;
-  background-size: 100% 100%;
-  position: relative;
-}
-
-#hero:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#hero .container {
-  position: relative;
-}
-
-#hero h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #222222;
-  font-family: "Poppins", sans-serif;
-}
-
-#hero h1 span {
-  color: #111e6c;
-}
-
-#hero h2 {
-  color: #212121;
-  margin: 5px 0 30px 0;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-#hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #111e6c;
-}
-
-#hero .btn-get-started:hover {
-  background: #247cf0;
-}
-
-#hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: #222222;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-}
-
-#hero .btn-watch-video i {
-  color: #111e6c;
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-#hero .btn-watch-video:hover {
-  color: #106eea;
-}
-
-#hero .btn-watch-video:hover i {
-  color: #3b8af2;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero {
-    height: 100vh;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-
-  #hero .btn-get-started,
-  #hero .btn-watch-video {
-    font-size: 13px;
-  }
-}
-
-@media (max-height: 500px) {
-  #hero {
-    width: 100%; */
-/* height: 120vh; */
-/* background: url("../Components/img/Hero2.jpg") top left;
-    background-size: 100% 100%;
-    position: relative;
-  }
-} */
-
 #newtitle {
   background-color: #111e6c;
   border: #111e6c;
@@ -797,11 +672,6 @@ h6 {
 #newtitle:hover {
   background-color: #ffffff;
   color: #111e6c;
-}
-/*-----------------------------New Landing -------------*/
-#font {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .hero {
@@ -850,7 +720,7 @@ h6 {
 }
 
 .hero p {
-  color: rgba(var(--default-color-rgb), 0.8);
+  color:#cecaca;
   margin: 5px 0 0 0;
   font-size: 20px;
 }
@@ -896,9 +766,21 @@ h6 {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 428px) {
   .hero h2 {
     margin-top: 600px;
+  }
+  .hero p {
+   font-size: 13px;
+  }
+  .hero img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: cover;
+  }
+  .hero .sign-up-form input[type="submit"] {
+    padding: 6px 10px 8px 10px;
   }
 }
 
@@ -951,7 +833,7 @@ h6 {
 .stats .stats-item p {
   padding: 0;
   margin: 0;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   font-size: 16px;
   font-weight: 700;
   color: rgba(var(--default-color-rgb), 0.6);
@@ -965,9 +847,7 @@ section {
   overflow: hidden;
 }
 
-/* .section-bg {
-    background-color: #f6f9fe;
-  } */
+
 
 .section-title {
   text-align: center;
@@ -1124,6 +1004,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  text-align: start;
 }
 
 .featured-services .icon-box:hover .title a,
@@ -1260,6 +1141,7 @@ section {
   padding: 70px 0 60px;
 }
 
+
 .counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
@@ -1306,7 +1188,7 @@ section {
 .clients {
   padding: 15px 0;
   text-align: center;
-  background-color: #062b5b;
+  background-color: #0e1013;
 }
 
 .clients img {
@@ -1319,7 +1201,10 @@ section {
 .clients img:hover {
   transform: scale(1.15);
 }
-
+.client-box{
+  height: 250px;
+  border:2px solid red;
+}
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
@@ -2247,12 +2132,9 @@ ul {
 }
 
 /*---Mission ----*/
-/* #margin {
-  margin-left: 150px;
-} */
+
 #color {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  
   color: #111e6c;
 }
 
@@ -2287,12 +2169,12 @@ ul {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 .footer .footer-about p {
   font-size: 14px;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 .footer .social-links a {

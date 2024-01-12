@@ -19,10 +19,11 @@ const Newfooter = () => {
   };
   return (
     <>
-      <section class="footer">
+      <section class="footer" data-aos="fade-up">
         <div class="footer-row">
           <div class="footer-col">
-            <h4 id="font">MR Distribution Services</h4>
+            <h4 id="font" data-aos="fade-in"
+              >MR Distribution Services</h4>
             <p>
               Our mission is to help investors achieve their financial goals by
               utilizing prudent investment strategies and an unwavering
@@ -46,12 +47,13 @@ const Newfooter = () => {
             </a>
             <a
               className="social-btn mb-5 ms-3"
-              href="https://twitter.com/"
+              href=" https://wa.me/919500519343"              
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="bi bi-twitter-x text-light fs-4"></i>
+              <i class="bi bi-whatsapp text-light fs-4"></i>
             </a>
+
             <div class="icons">
               <i class="fa-brands fa-facebook-f"></i>
               <i class="fa-brands fa-twitter"></i>
@@ -63,10 +65,10 @@ const Newfooter = () => {
             <h4 class="heading">Links</h4>
             <ul class="links">
               <li>
-                <a href="#hero">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#owner">About us</a>
+                <a href="#aboutus">About us</a>
               </li>
               <li>
                 <a href="#services">Services</a>

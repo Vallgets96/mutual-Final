@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import "../Style.css";
+import happyclientbg from '../img/happyclientbg.jpg'
 
 const Happyclients = () => {
   return (
@@ -47,8 +48,8 @@ const Happyclients = () => {
           </div>
         </div>
       </section> */}
-      <section id="stats" className="stats">
-        <img src={require("../img/paper.jpg.crdownload")}  />
+      <section id="stats" className="stats mt-5">
+        <img src={happyclientbg}  />
 
         <div
           class="container position-relative"
@@ -65,9 +66,9 @@ const Happyclients = () => {
                   class="purecounter"
                 >
                   {" "}
-                  243{" "}
+                  54Crs{" "}
                 </span>
-                <p>Clients</p>
+                <p>AUM</p>
               </div>
             </div>
 
@@ -79,9 +80,9 @@ const Happyclients = () => {
                   data-purecounter-duration="1"
                   class="purecounter"
                 >
-                  386
+                  649
                 </span>
-                <p>Projects</p>
+                <p>Clients</p>
               </div>
             </div>
 
@@ -93,9 +94,9 @@ const Happyclients = () => {
                   data-purecounter-duration="1"
                   class="purecounter"
                 >
-                  24
+                  297
                 </span>
-                <p>Hours Of Support</p>
+                <p>Family</p>
               </div>
             </div>
 
@@ -107,9 +108,9 @@ const Happyclients = () => {
                   data-purecounter-duration="1"
                   class="purecounter"
                 >
-                  18
+                  25L
                 </span>
-                <p>Workers</p>
+                <p>SIP</p>
               </div>
             </div>
           </div>

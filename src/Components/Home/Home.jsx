@@ -448,18 +448,18 @@ const Home = () => {
                </a>
              </i>
              <i className="bi bi-phone d-flex align-items-center ms-4">
-               <span> 04224 369618</span>
+               <span> 0422-4369618</span>
              </i>
            </div>
            <div className="social-links d-none d-md-flex align-items-center">
-             <a href="https://twitter.com/" className="twitter">
-               <i class="bi bi-twitter-x"></i>
+             <a href=" https://wa.me/919500519343" className="twitter">
+               <i class="bi bi-whatsapp"></i>
              </a>
              <a href="https://www.facebook.com/" className="facebook">
               <i className="bi bi-facebook" />
              </a>
              <a
-               href="https://www.instagram.com/reel/C1b-SoYN7Zq/?igsh=MW1ybDEwc2QyaHRoMw=="
+               href="https://www.instagram.com/mr_distributionservices_cbe?igsh=ODA1NTc5OTg5Nw%3D%3D&utm_source=qr"
                className="instagram"
              >               <i className="bi bi-instagram" />
              </a>
@@ -469,7 +469,7 @@ const Home = () => {
       <header id="header" className="d-flex align-items-center sticky-top">
         <div className="container d-flex align-items-center justify-content-between">
           <h1 className="logo">
-            <a href="#hero">
+            <a href="#home">
               <img className="logo" src={logo} alt="Logo" />
             </a>
           </h1>
@@ -480,7 +480,7 @@ const Home = () => {
                   className={`nav-link scrollto ${
                     activeLink === "HOME" ? "active" : ""
                   }`}
-                  href="#hero"
+                  href="#home"
                   onClick={() => handleNavClick("HOME")}
                 >
                   HOME
@@ -491,7 +491,7 @@ const Home = () => {
                   className={`nav-link scrollto ${
                     activeLink === "ABOUT" ? "active" : ""
                   }`}
-                  href="#owner"
+                  href="#aboutus"
                   onClick={() => handleNavClick("ABOUT")}
                 >
                   ABOUT
@@ -536,7 +536,7 @@ const Home = () => {
         </div>
       </header>
 
-      <section id="hero" className="hero">
+      <section id="home" className="hero">
         <img src={hero} alt="landing" data-aos="fade-in" />
 
         <div className="container">
@@ -548,18 +548,18 @@ const Home = () => {
                 className="mt-5 text-light"
                 id="font"
               >
-                Welcome to MR Distribution
+                Welcome to MR Distribution Services
               </h2>
-              <p data-aos="fade-up" data-aos-delay="200">
-                Your Path to Financial Success Starts Here.
-              </p>
+              <p data-aos="fade-up" className="home-par" data-aos-delay="200">
+              Invest with confidence and achieve your goals with our trusted financial services.
+                            </p>
             </div>
             <div className="col-lg-5">
-              <a href="#services">
+              <a href="https://mrdistributionservices.investwell.app/app/#/login">
                 <input
                   data-aos="fade-up"
                   type="submit"
-                  className="  mt-5 p-3 btn btn-primary"
+                  className="  mt-5 p-3 btn btn-primary home-btn"
                   value="Get Started"
                   id="newtitle"
                 />

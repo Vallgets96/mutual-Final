@@ -63,7 +63,7 @@ const Contactus = () => {
               <div className="info-box  mb-4">
                 <i class="bi bi-telephone-fill"></i>
                 <h3>Call Us</h3>
-                <p>+91 9994 3194 36</p>
+                <p>+91 95005 19343</p>
               </div>
             </div>
           </div>

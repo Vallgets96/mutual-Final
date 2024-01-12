@@ -8,7 +8,7 @@ const Whyus = () => {
           <div className="section-title">
             <h2>WHY CHOOSE US</h2>
             <h3>
-              Why <span>MR Distribution?</span>
+              Why <span>MR Distribution Services?</span>
             </h3>
           </div>
           <div className="row">
@@ -20,9 +20,11 @@ const Whyus = () => {
                 <h4 className="title">
                   <a href>Wide Product Range</a>
                 </h4>
-                <p className="description">
-                  Guaranteed overnight millionaire status with our risk-free
-                  mutual funds
+                <p className="description ">
+                MR Distribution Services offers a diverse mix of investment options, enabling you to tailor 
+                your portfolio to align with specific financial goals.
+
+
                 </p>
               </div>
             </div>
@@ -35,8 +37,9 @@ const Whyus = () => {
                   <a href>Transparent Pricing</a>
                 </h4>
                 <p className="description">
-                  Transparent pricing in mutual funds ensures clarity and
-                  fairness for investors
+                We prioritize honesty by providing a clear fee structure, 
+                ensuring you understand and control the costs associated with our services.
+
                 </p>
               </div>
             </div>
@@ -49,8 +52,8 @@ const Whyus = () => {
                   <a href>Innovative Tools</a>
                 </h4>
                 <p className="description">
-                  Innovative tools enhance mutual fund investing with advanced
-                  analytics for informed decisions
+                Empower your financial journey with our cutting-edge tools
+                 for confident decision-making in today's dynamic market.
                 </p>
               </div>
             </div>

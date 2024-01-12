@@ -214,11 +214,9 @@ const MV = () => {
               <h4 className="text">Our Mission</h4>
               <img src={mission} alt="" srcset="" className="mission-img" />
               <p>
-                Our mission is to help investors achieve their financial goals
-                by utilizing prudent investment strategies and an unwavering
-                commitment to excellence. Three key pillars that define our
-                mission are Financial Empowerment, Expert Advice, Trust, and
-                Transparency.
+               We are dedicated to assisting investors in attaining their financial objectives
+               through the implementation of sound investment strategies and an unwavering dedication to excellence.
+               Our mission is defined by three fundamental principles: Expert Advice, Trust, and Transparency.
               </p>
             </div>
             <div class="col-12 col-md-10 col-lg-5 mt-md-5 mt-lg-0 mt-5 mv-col">
@@ -226,9 +224,9 @@ const MV = () => {
               <img src={vision} alt="" srcset="" className="mission-img" />
               <p>
                 {" "}
-                Our vision is to be the driving force behind a society in which
-                every person, regardless of background, can confidently navigate
-                the path to financial success.
+                Our goal is to become the catalyst for a society where every individual, 
+                irrespective of their background, can confidently navigate the journey 
+                towards financial prosperity.
               </p>
             </div>
           </div>

@@ -2,18 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat";
   }
   .heading {
     margin-left: 33px;
-    font-family: "Montserrat";
   }
-  #font {
-    font-family: "Montserrat";
-  }
+
   .footer {
     background: #111e6c;
-    border-radius: 6px;
     margin-bottom: 0px;
   }
   
@@ -29,11 +24,12 @@
   .footer-row .footer-col h4 {
     color: #fff;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 600;
   }
   
   .footer-col .links {
-    margin-top: 20px;
+    margin-top: 10px;
+    font-weight: 400;
   }
   
   .footer-col .links li {

@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style.css";
 
+
 const Faq = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Faq = () => {
                     className="collapsed question"
                     href="#faq1"
                   >
-                    What are the Benefits of Mutual Funds?{" "}
+                    How do I get started with MR Distributions?{" "}
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -31,12 +32,8 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Mutual funds offer benefits such as professional
-                      management, providing expertise to navigate market
-                      complexities. They offer liquidity, allowing easy buying
-                      and selling. Additionally, they provide accessibility for
-                      individuals with small assets and ensure transparency
-                      through regular reporting.
+                    Simply visit our website, fill out the registration form, 
+                    and one of our advisors will guide you through the process.
                     </p>
                   </div>
                 </li>
@@ -46,7 +43,7 @@ const Faq = () => {
                     href="#faq2"
                     className="collapsed question"
                   >
-                    What are the risks in Mutual Funds?
+                    What makes your fees transparent?
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -56,10 +53,8 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Mutual fund risks include market-driven fluctuations in
-                      returns, regulatory impact from tax rule changes, and
-                      liquidity risks due to investments in less liquid assets,
-                      especially during economic downturns.
+                    We believe in upfront communication. Our fee structure is 
+                    straightforward, with no hidden costs, ensuring clarity for our clients.
                     </p>
                   </div>
                 </li>
@@ -69,7 +64,7 @@ const Faq = () => {
                     href="#faq3"
                     className="collapsed question"
                   >
-                    How to buy a Mutual fund?{" "}
+                    Can I customize my investment portfolio?{" "}
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -79,21 +74,9 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Step 1: Open an Account with our MR distributors.
-                      <br />
-                      Step 2: Read the prospectus carefully which contains
-                      (investor objectives, risks, Fee table, and shareholder
-                      information)
-                      <br />
-                      Step 3: Research the funds based on your investment, goals
-                      and time horizon and choose a plan wisely.
-                      <br />
-                      Step 4: Choose payment type: SIP or Lumpsum.
-                      <br />
-                      Step 5: Verify KYC details.
-                      <br />
-                      Step 6: Fill in your PAN card and bank details.
-                      <br />
+                    Absolutely! We offer a wide range of investment products, allowing
+                    you to tailor your portfolio according to your financial goals and preferences.
+
                     </p>
                   </div>
                 </li>
@@ -103,7 +86,7 @@ const Faq = () => {
                     href="#faq4"
                     className="collapsed question"
                   >
-                    How to sell a Mutual Fund?{" "}
+                    Are there any tools to track my investments?{" "}
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -113,10 +96,8 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      To sell a Mutual Fund, use the online portal created by MR
-                      distributors. Redeem units as needed, choosing partial or
-                      full sale. Confirm transactions online. Alternatively,
-                      visit our office for offline redemption.
+                    Yes, our platform provides intuitive and advanced tools for portfolio 
+                    management and analytics, empowering you to monitor and optimize your investments.
                     </p>
                   </div>
                 </li>
@@ -126,7 +107,7 @@ const Faq = () => {
                     href="#faq5"
                     className="collapsed question"
                   >
-                    Mention the considerations in Mutual Funds.{" "}
+                     How often should I review my investment strategy?{" "}
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -136,12 +117,8 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      MR Distributors adhere to SEBI regulations for fees.
-                      Recognize potential financial consequences when selling
-                      mutual funds, especially for long-term holdings.<br/> Timing of
-                      the Market: Mutual fund prices are based on the NAV at the
-                      end of the trading day. Unlike stocks, you can't place
-                      real-time market orders. Consider these factors.
+                    Regularly review your strategy, especially during significant life changes.
+                     Our advisors are here to help you adapt your plan to meet evolving financial goals.
                     </p>
                   </div>
                 </li>

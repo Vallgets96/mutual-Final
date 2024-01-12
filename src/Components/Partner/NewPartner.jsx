@@ -12,13 +12,13 @@ import { Container } from "react-bootstrap";
 function Newpartner() {
   return (
     <>
-      <div className="section-title">
-        <h2>Our Partners</h2>
+      <div className="section-title" data-aos="fade-up">
+        <h2>FD PARTNERS</h2>
         <h3>
           Powering <span> Prosperity Together</span>
         </h3>
       </div>
-      <Container className="border shadow">
+      <Container className="border shadow" data-aos="fade-up">
         <div className="App">
           <div className="mb-3">
             <Marquee direction="right" speed={100} delay={5}>

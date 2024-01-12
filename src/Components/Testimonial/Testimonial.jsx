@@ -104,7 +104,7 @@ const Testimonials = () => {
       <div className="section-title new">
         <h2>Feedback</h2>
         <h3>
-          Testimonial <span>Tales</span>
+          Testimonial
         </h3>
       </div>
 
