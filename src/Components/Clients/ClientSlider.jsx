@@ -12,12 +12,12 @@ const ClientSlider = (props) => {
       
       
       
-      <Header >
-        <div>
+      <Header  >
+        <div className="star">
           {Array(stars)
             .fill()
             .map((_, i) => (
-              <span className="star"  key={i}>
+              <span key={i}>
                 <FaStar />
               </span>
             ))}
