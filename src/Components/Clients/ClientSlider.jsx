@@ -23,7 +23,7 @@ const ClientSlider = (props) => {
             ))}
         </div>
       </Header>
-      <Body style={{ fontFamily: "",marginTop:"10px" }}>{disc}</Body>
+      <Body style={{ fontFamily: "",marginTop:"10px", paddingLeft:"8px",paddingRight:'8px' }}>{disc}</Body>
       <Footer>
         <img src={img_url} alt={name} />
         <div className="details">
