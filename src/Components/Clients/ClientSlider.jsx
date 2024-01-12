@@ -14,6 +14,13 @@ const ClientSlider = (props) => {
       
       
       <Body style={{ fontFamily: "",marginTop:"10px" }}>{disc}</Body>
+      <Footer>
+        <img src={img_url} alt={name} />
+        <div className="details">
+          <h1>{name}</h1>
+          <p>{position}</p>
+        </div>
+      </Footer>
       <Header>
         <div>
           {Array(stars)
@@ -25,13 +32,7 @@ const ClientSlider = (props) => {
             ))}
         </div>
       </Header>
-      <Footer>
-        <img src={img_url} alt={name} />
-        <div className="details">
-          <h1>{name}</h1>
-          <p>{position}</p>
-        </div>
-      </Footer>
+      
       
     </Container>
   );
