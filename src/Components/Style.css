@@ -784,6 +784,7 @@ h6 {
   }
 }
 
+
 /*---------- New  Clients page----- */
 .stats {
   --default-color: #ffffff;
@@ -1204,6 +1205,8 @@ section {
 .client-box{
   height: 250px;
   border:2px solid red;
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 768px) {
   .clients img {

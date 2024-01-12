@@ -12,16 +12,7 @@ const ClientSlider = (props) => {
       
       
       
-      
-      <Body style={{ fontFamily: "",marginTop:"10px" }}>{disc}</Body>
-      <Footer>
-        <img src={img_url} alt={name} />
-        <div className="details">
-          <h1>{name}</h1>
-          <p>{position}</p>
-        </div>
-      </Footer>
-      <Header>
+      <Header >
         <div>
           {Array(stars)
             .fill()
@@ -32,6 +23,15 @@ const ClientSlider = (props) => {
             ))}
         </div>
       </Header>
+      <Body style={{ fontFamily: "",marginTop:"10px" }}>{disc}</Body>
+      <Footer>
+        <img src={img_url} alt={name} />
+        <div className="details">
+          <h1>{name}</h1>
+          <p>{position}</p>
+        </div>
+      </Footer>
+      
       
       
     </Container>
