@@ -1206,7 +1206,9 @@ section {
   height: 250px;
   border:2px solid red;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  
 }
 @media (max-width: 768px) {
   .clients img {
