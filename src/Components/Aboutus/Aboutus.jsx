@@ -286,7 +286,7 @@ const Owner = () => {
               </h4>
               <p className="owner-para" data-aos="fade-in">
               
-                Hi I am Shrinidhi M R, Director, M R Distribution services.
+                Hi I am Shrinidhi M R, Director of M R Distribution services.
                  Having accumulated more than 2 years of practical experience in the financial industry,
                   my commitment lies in upholding the distinguished legacy of excellence set by my father, 
                   Mr. Mohanraj. As a Financial Advisor, I introduce a novel viewpoint to our customer-focused methodology.

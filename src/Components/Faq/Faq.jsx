@@ -22,7 +22,7 @@ const Faq = () => {
                     className="collapsed question"
                     href="#faq1"
                   >
-                    How do I get started with MR Distributions?{" "}
+                    How do I get started with MR Distribution Services?{" "}
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -43,7 +43,7 @@ const Faq = () => {
                     href="#faq2"
                     className="collapsed question"
                   >
-                    What makes your fees transparent?
+                    What Security Measures Do You Have?
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -53,8 +53,7 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    We believe in upfront communication. Our fee structure is 
-                    straightforward, with no hidden costs, ensuring clarity for our clients.
+                    Ensuring the security of your data is our utmost priority. Our platform implements robust security measures, incorporating advanced encryption and multi-factor authentication, to guarantee the utmost protection for your valuable information.
                     </p>
                   </div>
                 </li>
@@ -96,8 +95,7 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Yes, our platform provides intuitive and advanced tools for portfolio 
-                    management and analytics, empowering you to monitor and optimize your investments.
+                    Yes, our platform not only offers intuitive and advanced tools for portfolio management and analytics but also provides you with a personalized app, empowering you to monitor and optimize your investments
                     </p>
                   </div>
                 </li>
@@ -117,8 +115,7 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Regularly review your strategy, especially during significant life changes.
-                     Our advisors are here to help you adapt your plan to meet evolving financial goals.
+                    Review your strategy every half-year, especially during significant life changes. Our advisors are here to help you adapt your plan to meet evolving financial goals.
                     </p>
                   </div>
                 </li>

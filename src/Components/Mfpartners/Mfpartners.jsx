@@ -24,14 +24,14 @@ import { Container } from "react-bootstrap";
 function Mfpartners() {
   return (
     <>
-      <div className="section-title " data-aos="fade-up">
+      <div className="section-title  " data-aos="fade-up">
         <h2>Mutual Fund Partners</h2>
         <h3>
-        Mutual  <span> Success Bond.</span>
+        Mutual  <span> Success Bond</span>
         </h3>
       </div>
       <Container data-aos="fade-up">
-        <div className="App">
+        <div className="App Mf-p">
           <div className="mb-3">
             <Marquee direction="right" speed={100} delay={2}>
               <div className="image_wrapper mfp">

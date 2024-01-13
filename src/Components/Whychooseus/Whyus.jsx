@@ -34,16 +34,15 @@ const Whyus = () => {
                   <i className="bi bi-currency-dollar" />
                 </div>
                 <h4 className="title">
-                  <a href>Transparent Pricing</a>
+                  <a href>Ease of Investment</a>
                 </h4>
                 <p className="description">
-                We prioritize honesty by providing a clear fee structure, 
-                ensuring you understand and control the costs associated with our services.
+                Clarity and integrity are paramount which makes your investment easy
 
                 </p>
               </div>
             </div>
-            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch why-box mb-5 mb-lg-0">
               <div className="icon-box" data-aos="fade-up" data-aos-delay={300}>
                 <div className="icon">
                   <i className="bi bi-laptop" />
@@ -66,8 +65,7 @@ const Whyus = () => {
                   <a href>Dedicated Support</a>
                 </h4>
                 <p className="description">
-                  Dedicated support offers personalized assistance for
-                  navigating mutual fund complexities with confidence
+                Customer support available 24/7 for personalized assistance, ensuring you navigate through any complexities with confidence.
                 </p>
               </div>
             </div>
